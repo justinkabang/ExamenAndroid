@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_inscription"
+            android:icon="@drawable/ic_edit"
+            android:title="Inscription" />
+        <item
+            android:id="@+id/nav_notif"
+            android:icon="@drawable/icon_notif"
+            android:title="Notification" />
+
+        <item android:id="@+id/nav_camp"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Camera"/>
+        <item
+            android:id="@+id/nav_faculte"
+            android:icon="@drawable/ic_school"
+            android:title="Facultes organisées" />
+    </group>
+    <item android:title="Autres options">
+        <menu>
+            <item android:id="@+id/nav_paint"
+                android:icon="@drawable/ic_main"
+                android:title="Paint"/>
+            <item android:id="@+id/nav_help"
+                android:icon="@drawable/ic_baseline_help"
+                android:title="Aide"/>
+
+            <item android:id="@+id/nav_audio"
+                android:icon="@drawable/ic_play"
+                android:title="Audio"/>
+        </menu>
+    </item>
+</menu>
+
+
+

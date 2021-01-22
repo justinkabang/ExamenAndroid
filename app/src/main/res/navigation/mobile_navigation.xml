@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="fr.justin.andikwashuleni1.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_faculte"
+        android:name="fr.justin.andikwashuleni1.ui.faculteOrganise.FaculteFragment"
+        android:label="Faculte"
+        tools:layout="@layout/blaba" />
+
+    <fragment
+        android:id="@+id/nav_paint"
+        android:name="fr.justin.andikwashuleni1.ui.pain.PainFragment"
+        android:label="Pain"
+        tools:layout="@layout/pain" />
+
+    <fragment
+        android:id="@+id/nav_audio"
+        android:name="fr.justin.andikwashuleni1.ui.audio.AudioFragment"
+        android:label="Audio"
+        tools:layout="@layout/audio" />
+
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="fr.justin.andikwashuleni1.ui.aide.AideFragment"
+        android:label="Aide"
+        tools:layout="@layout/aide" />
+
+    <fragment
+        android:id="@+id/nav_notif"
+        android:name="fr.justin.andikwashuleni1.ui.notification.NotificationFragment"
+        android:label="Pain"
+        tools:layout="@layout/pain" />
+
+    <fragment
+        android:id="@+id/nav_camp"
+        android:name="fr.justin.andikwashuleni1.ui.camera.CameraFragment"
+        android:label="Camera"
+        tools:layout="@layout/camera" />
+
+    <fragment
+        android:id="@+id/nav_inscription"
+        android:name="fr.justin.andikwashuleni1.ui.inscription.InscriptionFragment"
+        android:label="Inscription"
+        tools:layout="@layout/inscription" />
+
+
+</navigation>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Andikwa Shuleni</string>
+    <string name="title_activity_acceuil_principale">AcceuilPrincipale</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">UNILU</string>
+    <string name="nav_header_subtitle">appwriter.student@unilu.ac.cd</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Acceil</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
